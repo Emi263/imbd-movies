@@ -1,0 +1,36 @@
+.movie-poster {
+  max-width: 400px;
+  padding: 16px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+  transition: ease-in 0.1s;
+}
+
+.movie-poster:hover {
+  transform: scale(1.05);
+}
+
+.movie-description {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.movies-genres {
+  display: flex;
+  gap: 6px;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.movies-genres span {
+  background-color: black;
+  color: white;
+  padding: 4px;
+  border-radius: 6px;
+
+}
+
+.release-date {
+  padding-top: 12px;
+  font-style: italic;
+}
